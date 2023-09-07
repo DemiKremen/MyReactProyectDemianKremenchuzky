@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+a{
+    font-family: 'Helvetica Neue LT Std';
+    text-decoration: none;
+    color: #331D2C;
+}
+
+a:hover {
+    text-shadow: 00.1px 00.1px #331D2C;
+}
