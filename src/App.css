@@ -1,0 +1,12 @@
+.fondo{
+    background-color: #331D2C;
+}
+
+.numero-count{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    color: beige;
+}

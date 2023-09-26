@@ -1,0 +1,21 @@
+.servicio-detalle {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 3px;
+    background-color: #331D2C;
+    text-align: left;    
+}
+
+.servicio-detalle h3 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #EFE1D1;
+}
+
+.servicio-detalle p {
+    font-size: 1rem;
+    color: #EFE1D1;
+}

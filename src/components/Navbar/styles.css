@@ -5,7 +5,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 25px;
+    padding: 0 50px;
+    text-decoration: none;
+    color: #331D2C;
+    flex-wrap: nowrap;
 }
 
 

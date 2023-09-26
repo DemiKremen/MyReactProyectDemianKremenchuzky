@@ -1,5 +1,6 @@
-import CartWidget from '../cartWidget/cartWidget';
+import CartWidget from '../CartWidget/CartWidget';
 import ItemListContainer from '../ItemListContainer/ItemListContainer';
+import Logo from '../Logo/Logo.jsx'
 import './styles.css';
 
 const Navbar = () => {
@@ -9,7 +10,8 @@ const Navbar = () => {
 
     return(
         <div className= 'navbar'>
-            <ItemListContainer greeting= " Design " handleConsole= {handleConsole}/>
+            <Logo/>
+            <ItemListContainer/>
             <CartWidget/>
         </div>
     )

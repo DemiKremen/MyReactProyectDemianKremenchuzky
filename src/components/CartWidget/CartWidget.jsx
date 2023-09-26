@@ -7,12 +7,7 @@ const CartWidget = () => {
 
     return (
         <div className="cart-widget">
-            <RiShoppingCartFill size={20} />
-            {itemCount > 0 && (
-                <button className="notification">
-                    {itemCount}
-                </button>
-            )}
+                <button onClick={() => handleConsole ()}>Download CV</button>
         </div>
     );
 };

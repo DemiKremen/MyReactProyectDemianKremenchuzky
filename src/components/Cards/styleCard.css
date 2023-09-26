@@ -1,17 +1,126 @@
-.card-title{
-    color: #331D2C;
+.container-cards{
+    background-color: #331D2C;
+    max-width: 100%;
 }
+
+.cards-container{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 1px;
+    border: none;
+}
+
+.card{
+    width: 18rem;
+    margin: 0 10px;
+}
+
 
 .card-text{
     color: #331D2C;
 }
 
+
 .btnCard{
-    color: #331D2C;
+    color: #EFE1D1;
     font-size: 14px;
     font-family: poppins;
-    border: 1px solid #331D2C;
+    border: 1px solid #EFE1D1;
     border-radius: 5px;
-    background-color: #ffffff;
+    background-color: #331D2C;
     padding: 8px 16px;
+    margin-bottom: 10px;
+}
+
+
+.Demi {
+    max-width: 100%; 
+    max-height: 100%; 
+    mix-blend-mode: exclusion;
+}
+
+.card-1 {
+    width: 30%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: #331D2C;
+    text-align: justify;
+}
+
+.card-2{
+    width: 25%;
+    border: none;
+    background-color: #331D2C;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-weight: bold;
+}
+
+h5{
+    font-family: 'Helvetica Neue LT Std';
+    font-size: 18px;
+}
+
+.text-color{
+    color: #EFE1D1;
+}
+
+.icon{
+    padding: 5px;
+    color: #EFE1D1;
+}
+
+.card-2-iconos{
+    display: flex;
+    align-items: center;
+}
+
+.rotate-90 {
+    transform: rotate(90deg);
+    white-space: nowrap;  
+    color: #EFE1D1;
+    align-items: center;
+    margin-bottom: 35px;
+    font-size: 14px;
+}
+
+.followicons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #EFE1D1;
+}
+
+.card-frase{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 130px;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFE1D1;
+    border: none;
+    color: #331D2C;
+    gap: 0px;
+}
+
+.borde-frase{
+    border: 0.1px solid #331D2C; 
+    border-radius: 2px;
+    padding: 15px 20px; 
+    text-align: center; 
+    font-family: 'Helvetica Neue LT Std';
+    font-size: 18px;
+}
+
+p{
+    font-size: 14px;
 }
