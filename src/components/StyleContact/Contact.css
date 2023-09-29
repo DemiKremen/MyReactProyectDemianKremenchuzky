@@ -1,3 +1,16 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    min-height: 100vh; /* Toma al menos el 100% del alto de la ventana */
+}
+
+.titulo{
+    text-align: center; 
+    margin-top: 20px;
+}
+
 .servicios-container {
     display: flex;
     flex-wrap: wrap;

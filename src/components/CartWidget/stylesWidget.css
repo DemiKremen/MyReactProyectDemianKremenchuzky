@@ -5,18 +5,3 @@
     text-align: center;
     gap: 5px;
 }
-
-.numero-container {
-    display: flex;
-    align-items: center; 
-    font-size: 18px; 
-}
-
-.notification{
-    font-size: 18px; 
-    font-family: 'Helvetica Neue LT Std';
-    padding: 5px 10px;
-    border-radius: 2px;
-    border: 1px solid #331D2C;
-    color: #331D2C;
-}

@@ -1,21 +1,30 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
 import CartWidget from '../CartWidget/CartWidget';
-import ItemListContainer from '../ItemListContainer/ItemListContainer';
-import Logo from '../Logo/Logo.jsx'
+import Logo from '../Logo/Logo';
 import './styles.css';
+import serviciosData from '../servicios';
+
 
 const Navbar = () => {
 
-    const handleConsole = () => console.log ('Descargar CV')
+    const categoriasUnicas = [...new Set(serviciosData.map(servicio => servicio.categoria))];
 
-
-    return(
-        <div className= 'navbar'>
-            <Logo/>
-            <ItemListContainer/>
-            <CartWidget/>
+    return (
+        <div className='navbar'>
+            <Link to='/' className='navbar-brand'>
+                <Logo />
+            </Link>
+            <div className='navbar-categories'>
+                {categoriasUnicas.map((categoria, index) => (
+                    <Link to={`/categoria/${categoria}`} className='navbar-category' key={index}>
+                        {categoria}
+                    </Link>
+                ))}
+            </div>
+            <CartWidget />
         </div>
-    )
-    
-}
+    );
+};
 
-export default Navbar
+export default Navbar;

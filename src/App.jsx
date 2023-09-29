@@ -1,9 +1,10 @@
+import { createContext, useState } from 'react';
 import Navigation from './routes/Navigation';
+export const ThemeContext = createContext()
 
-function App() {
-  
+function App() { 
   return (
-    <Navigation />
+  <Navigation />
   );
 }
 

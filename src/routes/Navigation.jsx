@@ -1,21 +1,25 @@
+import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import {Home, Contact, ServicioDetalle} from '../pages/index'
+import { Contact, Navbar, ServicioDetalle, ItemListContainer } from '../pages/index';
 
 const Navigation = () => {
     const routes = createBrowserRouter([
+        <Navbar />,
         {
             path: '/',
-            element: <Home/>
+            element:
+            <Contact />
         },
         {
-            path: '/contact',
-            element: <Contact/>
+            path: '/servicio/:id',
+            element:                 
+            <ServicioDetalle />
         },
         {
-          path: '/servicio/:id',
-          element: <ServicioDetalle />
-      }
-        
+            path: '/categoria/:categoria',
+            element:                 
+            <ItemListContainer />
+        }
     ]);
 
     return (

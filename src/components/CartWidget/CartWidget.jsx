@@ -1,13 +1,10 @@
-import './stylesWidget.css'
-import {RiShoppingCartFill} from 'react-icons/ri'
+import './stylesWidget.css';
+import { BsFillCartFill } from 'react-icons/bs';
 
 const CartWidget = () => {
-
-    const itemCount = 4;
-
     return (
         <div className="cart-widget">
-                <button onClick={() => handleConsole ()}>Download CV</button>
+                <BsFillCartFill />
         </div>
     );
 };

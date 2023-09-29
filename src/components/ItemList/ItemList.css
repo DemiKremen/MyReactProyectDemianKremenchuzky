@@ -1,0 +1,35 @@
+.item-list-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #EFE1D1;
+    border-radius: 5px;
+}
+
+
+.item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #331D2C;
+    background-color: #EFE1D1;
+    border-radius: 5px;
+}
+
+
+.item h3 {
+    color: #331D2C;
+}
+
+
+.item p {
+    color: #331D2C;
+}
+
+
+.item a {
+    text-decoration: none;
+    color: #331D2C;
+    border: 1px solid #331D2C;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
